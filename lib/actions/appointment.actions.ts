@@ -116,4 +116,5 @@ export const sendSMSNotification = async (userId: string, content: string) => {
     } catch (error) {
         console.log(error)
     }
+
 }
